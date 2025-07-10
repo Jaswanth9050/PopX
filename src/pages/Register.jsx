@@ -160,7 +160,7 @@ const CreateAccount = () => {
                   </button>
                 </div>
 
-                <p className="my-3 text-center">
+                <p className="mt-2 text-center">
                   Already Have An Account?{' '}
                   <Link className="text-decoration-none" style={{ color: '#9a46f3' }} to="/login">
                     Login

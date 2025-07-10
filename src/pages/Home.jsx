@@ -7,7 +7,7 @@ const Home = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-12 col-sm-10 col-md-4 col-lg-4">
-            <div className="card shadow rounded p-4">
+            <div className="card shadow rounded-4 p-4">
               {/* Circle */}
               <div
                 className="circle-hover mx-auto mb-4 d-flex justify-content-center align-items-center"
@@ -28,7 +28,7 @@ const Home = () => {
               </div>
 
               {/* Left-aligned text */}
-              <div className="text-start" style={{ margin: "35% 0 0 0" }}>
+              <div className="text-start" style={{ margin: "82% 0 0 0" }}>
                 <h3 className="fw-bold text-dark mb-3">Welcome to PopX</h3>
                 <p className="text-secondary mb-1">
                   Lorem ipsum dolor sit amet,

@@ -36,7 +36,7 @@ const Login = () => {
         <div className="row justify-content-center">
           <div className="col-12 col-sm-10 col-md-6 col-lg-4">
             <form onSubmit={handleLogin}>
-              <div className="card shadow rounded p-4">
+              <div className="card shadow rounded-4 p-4">
                 {/* Headings */}
                 <h2 className="fw-bold mb-1">Sign in to your</h2>
                 <h2 className="fw-bold mb-3">PopX account</h2>
@@ -90,7 +90,7 @@ const Login = () => {
                   </button>
                 </div>
 
-                <p className="my-3">
+                <p className="my-3" style={{padding:"0 0 60% 0"}}>
                   Not Have An Account?{' '}
                   <Link className="text-decoration-none" style={{ color: '#9a46f3' }} to="/register">
                     Register

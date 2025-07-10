@@ -31,7 +31,7 @@ const Settings = () => {
     <div className="d-flex justify-content-center align-items-center min-vh-100 bg-light">
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-12 col-sm-12 col-md-6 col-lg-5">
+          <div className="col-12 col-sm-12 col-md-4 col-lg-4">
             <div className="card shadow-lg rounded-4 p-4 border-0">
             <h4 className='bg-white py-1 border-bottom border-dark mb-4'>Account Setting</h4>
               {/* Profile */}
@@ -54,7 +54,7 @@ const Settings = () => {
               </div>
 
               {/* Description */}
-              <div style={{margin:"0 0 50% 0"}}>
+              <div style={{margin:"0 0 83% 0"}}>
                 <p className="text-secondary">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                   consectetur, nisl sit amet facilisis fringilla, sapien orci
